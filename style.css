@@ -110,6 +110,7 @@ body {
   border: none;
   background-color: none;
   margin-bottom: 11.6rem;
+  list-style: none;
 }
 
 @media (max-width: 500px) {
