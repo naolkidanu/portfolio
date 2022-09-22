@@ -25,6 +25,7 @@ body {
   justify-content: flex-start;
   row-gap: 20px;
   flex-direction: column;
+  margin-left: 0px;
 }
 
 .navbar {
@@ -35,8 +36,8 @@ body {
 }
 
 .log {
-  font-family: sans-serif;
-  font-size: 1.8rem;
+  font-family: 'poppins';
+  font-size: 1.3rem;
   line-height: 2rem;
 
   /* margin: .5rem; */
@@ -79,38 +80,42 @@ body {
 .main {
   color: #555;
   font-size: 40px;
-  font-weight: bold;
-  font-family: sans-serif;
+  font-weight: 700;
+  font-family: 'poppins';
+  font-style: normal;
   line-height: 52px;
-
   /* margin-bottom: 12px; */
+}
+
+.main-description {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .description {
   font-size: 1.6rem;
-  font-family: sans-serif;
+  font-family: 'poppins';
   font-weight: 400;
-  color: #444;
+  color: rgb(79, 53, 100);
   line-height: 2.4rem;
 }
 
 .text {
   text-transform: uppercase;
-  font-family: sans-serif;
-  font-size: 1.2rem;
+  font-family: 'poppins';
+  font-weight: 500;
+  font-size: 1.3rem;
   line-height: 2.4rem;
   color: rgb(39, 39, 247);
+
 }
 
-.button-bottom {
+.button-family {
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
   gap: 2rem;
-  border: none;
-  background-color: none;
-  margin-bottom: 11.6rem;
   list-style: none;
+  margin-bottom: 11.6rem;
 }
 
 @media (max-width: 500px) {
