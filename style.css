@@ -25,7 +25,6 @@ body {
   justify-content: flex-start;
   row-gap: 20px;
   flex-direction: column;
-  margin-left: 0px;
 }
 
 .navbar {
@@ -36,7 +35,6 @@ body {
 }
 
 .log {
-  font-family: 'poppins';
   font-size: 1.3rem;
   line-height: 2rem;
 
@@ -81,9 +79,9 @@ body {
   color: #555;
   font-size: 40px;
   font-weight: 700;
-  font-family: 'poppins';
   font-style: normal;
   line-height: 52px;
+
   /* margin-bottom: 12px; */
 }
 
@@ -95,7 +93,6 @@ body {
 
 .description {
   font-size: 1.6rem;
-  font-family: 'poppins';
   font-weight: 400;
   color: rgb(79, 53, 100);
   line-height: 2.4rem;
@@ -103,15 +100,13 @@ body {
 
 .text {
   text-transform: uppercase;
-  font-family: 'poppins';
   font-weight: 500;
   font-size: 1.3rem;
   line-height: 2.4rem;
   color: rgb(39, 39, 247);
-
 }
 
-.button-family {
+.button-bott {
   display: flex;
   gap: 2rem;
   list-style: none;
