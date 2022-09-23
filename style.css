@@ -24,7 +24,7 @@ body {
   flex-direction: column;
 }
 
-.navbar {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -37,22 +37,6 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
   color: rgb(89, 89, 230);
-}
-
-.nav-links ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-.nav-links li {
-  list-style: none;
-}
-
-.nav-links li a {
-  text-decoration: none;
-  padding: 1rem;
-  display: block;
 }
 
 .header-button {
@@ -119,10 +103,5 @@ body {
 @media (max-width: 500px) {
   .header-button {
     display: flex;
-  }
-
-  .nav-links {
-    /* width: 100%; */
-    display: none;
   }
 }
