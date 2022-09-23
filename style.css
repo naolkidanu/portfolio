@@ -208,6 +208,17 @@ header {
   background-color: #fff;
 }
 
+.sec-button:hover {
+  background-color: #396df2;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sec-button:active {
+  background-color: #7f8cff;
+  color: #fff;
+}
+
 .card {
   display: flex;
   flex-direction: column;
