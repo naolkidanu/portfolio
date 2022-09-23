@@ -35,7 +35,6 @@ body {
   font-size: 1.3rem;
   line-height: 2rem;
   font-family: 'Source Sans Pro', sans-serif;
-  /* margin: .5rem; */
   font-weight: 700;
   color: rgb(89, 89, 230);
 }
@@ -115,11 +114,6 @@ body {
   padding-inline-start: 0;
   margin-bottom: 11.6rem;
   padding-top: 5px;
-
-}
-
-.first-link {
-  list-style-position: inside;
 }
 
 @media (max-width: 500px) {
