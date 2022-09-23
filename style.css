@@ -196,6 +196,7 @@ background-color: #fff;
   align-items: flex-start;
   justify-content: flex-start;
   gap:12px;
+  border-radius: 16px;
 }
 @media (max-width: 600px) {
   .header-button {
