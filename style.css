@@ -5,10 +5,9 @@
 }
 
 body {
-  margin:16px 16px;
-  background-color: #F7F7F9;
+  margin: 16px 16px;
+  background-color: #f7f7f9;
 }
-
 
 .background-img {
   background-image: url(./img/mobile-background.png);
@@ -24,11 +23,9 @@ body {
   row-gap: 20px;
   flex-direction: column;
   background-color: #fff;
-  border-radius: none;
-  padding-bottom:8px 8px;
-  margin-top: 6px;
+  border-radius: 0.05px;
+  padding: 16px 16px;
   margin-bottom: 88px;
-  padding-left: 1.5px;
 }
 
 header {
@@ -37,16 +34,16 @@ header {
   align-items: center;
   background-color: #fff;
   border-radius: none;
-  padding:10px 10px;
+  padding: 10px 10px;
 }
 
 .log {
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 20px;
-color: #6070FF;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
 }
 
 .header-button {
@@ -56,7 +53,7 @@ color: #6070FF;
   width: 30px;
   height: 21px;
   border: none;
-  background:none;
+  background: none;
 }
 
 .header-button .bar {
@@ -94,7 +91,7 @@ color: #6070FF;
   font-size: 16px;
   font-family: 'poppins', sans-serif;
   font-weight: 400;
-  color:#344563; 
+  color: #344563;
   line-height: 24px;
 }
 
@@ -104,7 +101,7 @@ color: #6070FF;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7f8cff;
 }
 
 .button-bott {
@@ -116,100 +113,112 @@ color: #6070FF;
   padding-inline-start: 0;
   margin-bottom: 10px;
 }
-.pic{
+
+.pic {
   border-radius: 8px;
 }
-.project{
-  display:grid;
+
+.project {
+  display: grid;
   grid-template-columns: 1fr;
-  gap:88px;
+  gap: 88px;
 }
-.card-name{
-font-family: 'Poppins',sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 44px;
-color:#172B4D;
+
+.card-name {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
 }
-.cann{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 13px;
-line-height: 16px;
-color:#344563;
-text-transform: uppercase;
-list-style: none;
+
+.cann {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+  text-transform: uppercase;
+  list-style: none;
 }
-.bak{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 600;
-font-size: 13px;
-line-height: 16px;
-color:#7A869A;
+
+.bak {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
 }
-.tex-sec{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 24px;
-color:#344563;
+
+.tex-sec {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
 }
-.can-bak{
-  display:flex;
+
+.can-bak {
+  display: flex;
   flex-direction: row;
-  gap:32px;
+  gap: 32px;
 }
-.work-list{
-  color:#6070FF;
+
+.work-list {
+  color: #6070ff;
   letter-spacing: 0.03em;
-  display:flex;
+  display: flex;
   flex-direction: row;
-  gap:8px;
-  font-family: 'Poppins';
+  gap: 8px;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
   list-style: none;
 }
-.work-name{
-  background-color: #EBEBFF;
+
+.work-name {
+  background-color: #ebebff;
   display: flex;
-flex-direction: row;
-align-items: center;
-padding: 4px 12px;
-border-radius: 8px;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: 8px;
 }
-.sec-button{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 17px;
-line-height: 24px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.03em;
-color:#396DF2;
-padding:16px 16px;
-border-radius: 16px;
-border:solid 2px #396DF2;
-background-color: #fff;
+
+.sec-button {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  padding: 16px 16px;
+  border-radius: 16px;
+  border: solid 2px #396df2;
+  background-color: #fff;
 }
-.card{
-  display:flex;
+
+.card {
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap:12px;
+  gap: 12px;
   border-radius: 16px;
   background-color: #fff;
-  padding:16px 16px;
+  padding: 16px 16px;
 }
+
 @media (max-width: 600px) {
   .header-button {
     display: flex;
