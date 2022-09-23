@@ -1,10 +1,11 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  margin: 24px 24px;
 }
 
 .background-img {
@@ -13,10 +14,6 @@ body {
   background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
-}
-
-.container {
-  margin: 24px 24px;
 }
 
 .row {
@@ -81,6 +78,7 @@ body {
   font-weight: 700;
   font-style: normal;
   line-height: 52px;
+  padding-bottom: 10px;
 
   /* margin-bottom: 12px; */
 }
@@ -111,9 +109,17 @@ body {
 
 .button-bott {
   display: flex;
+  justify-content: flex-start;
   gap: 2rem;
-  list-style: none;
+  list-style-type: none;
+  padding-inline-start: 0;
   margin-bottom: 11.6rem;
+  padding-top: 5px;
+
+}
+
+.first-link {
+  list-style-position: inside;
 }
 
 @media (max-width: 500px) {
