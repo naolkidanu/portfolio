@@ -32,11 +32,12 @@ header {
 }
 
 .log {
-  font-size: 1.3rem;
-  line-height: 2rem;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 700;
-  color: rgb(89, 89, 230);
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 20px;
+color: #6070FF;
 }
 
 .header-button {
