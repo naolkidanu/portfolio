@@ -231,74 +231,76 @@ header {
   padding: 16px 16px;
   margin-bottom: 114px;
 }
-.about{
+
+.about {
   background-color: #fff;
-  padding:114px 16px;
+  padding: 114px 16px;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.title-about{
-font-family: 'Poppins',sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-color:#172B4D;
+
+.title-about {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
 }
-.prof{
-  display:flex;
+
+.prof {
+  display: flex;
   flex-direction: column;
   list-style: none;
-  gap:12px;
-  margin-bottom:10px;
+  gap: 12px;
+  margin-bottom: 10px;
+  font-family: 'poppins', sans-serif;
 }
-.prof-list{
-  background-color: #F7F7F9;
+
+.prof-list {
+  background-color: #f7f7f9;
   border-radius: 8px;
-  padding:9px;
+  padding: 9px;
   padding-left: 12px;
   display: flex;
   align-items: center;
   gap: 16px;
 }
-.about-button{
-display: flex;
+
+.about-button {
+  display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 2rem;
   list-style: none;
-  padding-inline-start: 1;
-}
-.about-first{
-  display:flex;
-  flex-direction: column;
-  gap:12px;
-  /* margin-bottom: 18px; */
-}
-.icon{
-  width: 24px;
-  height: 24px;
-  stroke:#344563;
-position:absolute;
-right:66px;
-}
-.accordion{
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-color:#000;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-position: relative;
-margin-bottom: 20px;
+  padding-left: 12px;
 }
 
-.bot{
-  /* margin-bottom: 48px; */
+.about-first {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  stroke: #344563;
+}
+
+.accordion {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-right: 56px;
 }
 
 @media (max-width: 600px) {
