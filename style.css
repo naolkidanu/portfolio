@@ -206,6 +206,7 @@ header {
   border-radius: 16px;
   border: solid 2px #396df2;
   background-color: #fff;
+  margin-bottom: 30px;
 }
 
 .sec-button:hover {
@@ -228,6 +229,75 @@ header {
   border-radius: 16px;
   background-color: #fff;
   padding: 16px 16px;
+  margin-bottom: 114px;
+}
+.about{
+  background-color: #fff;
+  padding-top:114px;
+}
+.title-about{
+font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+color:#172B4D;
+display: flex;
+flex-direction: column;
+gap:24px;
+}
+.prof{
+  display:flex;
+  flex-direction: column;
+  list-style: none;
+  gap:12px;
+  margin: 36px 36px;
+}
+.prof-list{
+  background-color: #F7F7F9;
+  border-radius: 8px;
+  padding:9px;
+  padding-left: 12px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.about-button{
+display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+  /* padding-inline-start: 1; */
+}
+.about-first{
+  display:flex;
+  flex-direction: column;
+  gap:12px;
+  margin-bottom: 18px;
+}
+.icon{
+  width: 24px;
+  height: 24px;
+  stroke:#344563;
+position:absolute;
+right:66px;
+}
+.accordion{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color:#000;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+position: relative;
+}
+
+.bot{
+  margin-bottom: 48px;
 }
 
 @media (max-width: 600px) {
