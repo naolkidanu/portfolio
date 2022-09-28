@@ -121,7 +121,7 @@ header {
   display: grid;
   grid-template-columns: 1fr;
   gap: 88px;
-  margin:0 16px;
+  margin: 0 16px;
 }
 
 .card-name {
