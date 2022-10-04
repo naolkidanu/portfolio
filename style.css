@@ -424,6 +424,11 @@ textarea {
   border-radius: 10px;
 }
 
+.btn {
+  cursor: pointer;
+}
+
+
 @media (max-width: 600px) {
   .header-button {
     display: flex;
