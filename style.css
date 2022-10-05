@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'poppins',sans-serif;
 }
 
 body {
@@ -37,7 +38,6 @@ header {
 }
 
 .log {
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -76,7 +76,6 @@ header {
 
 .main-description {
   display: flex;
-  font-family: 'poppins', sans-serif;
   align-items: center;
   flex-direction: column;
   gap: 1rem;
@@ -88,7 +87,6 @@ header {
 
 .description {
   font-size: 16px;
-  font-family: 'poppins', sans-serif;
   font-weight: 400;
   color: #344563;
   line-height: 24px;
@@ -96,7 +94,6 @@ header {
 
 .text {
   text-transform: uppercase;
-  font-family: 'poppins', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
@@ -125,7 +122,6 @@ header {
 }
 
 .card-name {
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -134,7 +130,6 @@ header {
 }
 
 .cann {
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -145,7 +140,6 @@ header {
 }
 
 .bak {
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -154,7 +148,6 @@ header {
 }
 
 .tex-sec {
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -174,7 +167,6 @@ header {
   display: flex;
   flex-direction: row;
   gap: 8px;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -192,7 +184,6 @@ header {
 }
 
 .sec-button {
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -240,7 +231,6 @@ header {
 }
 
 .title-about {
-  font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -254,7 +244,6 @@ header {
   list-style: none;
   gap: 12px;
   margin-bottom: 10px;
-  font-family: 'poppins', sans-serif;
 }
 
 .prof-list {
@@ -289,7 +278,6 @@ header {
 }
 
 .accordion {
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -311,7 +299,6 @@ header {
 }
 
 .contact-head {
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -321,7 +308,6 @@ header {
 }
 
 .para-contact {
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -342,7 +328,6 @@ header {
 .contact-list button {
   align-self: flex-start;
   margin-bottom: 52px;
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -399,7 +384,6 @@ input,
 textarea {
   padding: 15px 16px;
   border-radius: 8px;
-  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
@@ -407,7 +391,6 @@ textarea {
 }
 
 textarea {
-  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
