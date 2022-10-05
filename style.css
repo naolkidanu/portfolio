@@ -408,7 +408,7 @@ textarea {
   background: #0d151e;
 }
 
-@media (max-width: 37.5em) {
+@media (max-width: 600px) {
   .header-button {
     display: flex;
   }
