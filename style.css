@@ -304,6 +304,7 @@ header {
   background-image: url(img/Contact\ me.png);
   background-repeat: no-repeat;
   padding-top: 10.3rem;
+  padding-bottom: 5rem;
   position: relative;
 }
 
@@ -426,6 +427,10 @@ textarea {
   justify-content: flex-start;
   gap: 1.2rem;
  }
+ .last-btn{
+   display: block;
+   margin:10px 24px;
+ }
 
 @media (min-width: 60rem) {
   .header-button {
@@ -502,17 +507,30 @@ textarea {
 }
 .contact-form{
   background-image: url(img/desktop/group_56.png);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
 }
 .contact-img,.contact-img2,.contact-img3,.contact-img4,.contact-img5{
   display: none;
 }
-.contact-list{
+.para-contact{
+ padding:0 25.5rem;
+}
+.last-form{
   display:flex;
   flex-direction: column;
-  width: 447px;
+  align-items: center;
   border-radius: 2px;
+  display: block;
+  padding:  1.6rem 29rem;
+  margin-bottom: 16px;
+}
+.shape{
+  display: none;
+}
+.sec-button{
+  display: block;
+  margin: 0 auto;
 }
 }
