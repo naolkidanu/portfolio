@@ -501,6 +501,18 @@ textarea {
   justify-content: flex-start;
 }
 .contact-form{
-  background-image:Group 56.svg;
+  background-image: url(img/desktop/group_56.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.contact-img,.contact-img2,.contact-img3,.contact-img4,.contact-img5{
+  display: none;
+}
+.contact-list{
+  display:flex;
+  flex-direction: column;
+  width: 447px;
+  border-radius: 2px;
 }
 }
