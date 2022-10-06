@@ -301,7 +301,6 @@ header {
 }
 
 .contact-form {
-  /* background-image:url(img/contact\ form\ shapes-mobile@2x.png); */
   background-image: url(img/Contact\ me.png);
   background-repeat: no-repeat;
   padding-top: 10.3rem;
@@ -474,4 +473,34 @@ textarea {
  .pic2{
    order:1;
  }
+ .about{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap:3.7rem;
+ }
+ .new-about{
+   display: flex;
+   flex-direction: column;
+   gap:12px;
+ }
+ .new-lang{
+  display: flex;
+  flex-direction: column;
+  gap:12px;
+}
+.accordion{
+ padding-right: 0;
+}
+.prof{
+  flex-direction: row;
+}
+.prof-list{
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 24px;
+  justify-content: flex-start;
+}
+.contact-form{
+  background-image:Group 56.svg;
+}
 }
