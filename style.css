@@ -442,8 +442,8 @@ textarea {
 .last-btn {
   font-style: normal;
   font-weight: 500;
-  font-size: 1.7rem;
   line-height: 2.4rem;
+  font-size: 1.7rem;
   display: flex;
   align-items: center;
   text-align: center;
@@ -569,7 +569,7 @@ textarea {
     width: 49.6rem;
   }
 
-  .project{
+  .project {
     margin-bottom: 14.2rem;
   }
 
@@ -579,7 +579,8 @@ textarea {
     gap: 3.7rem;
     border-top-right-radius: 12rem;
   }
-  .about .description{
+
+  .about .description {
     color: #344563;
   }
 
@@ -611,11 +612,11 @@ textarea {
     padding-right: 3.6rem;
     justify-content: flex-start;
     font-weight: 500;
-     font-size: 15px;
-     line-height: 20px;
-     display: flex;
-     color: #253858;
-     width: 10.8rem;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    color: #253858;
+    width: 10.8rem;
   }
 
   .contact-form {
