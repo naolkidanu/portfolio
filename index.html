@@ -16,7 +16,14 @@
   <header>
     <a class="log">My Logo</a>
     <nav>
-      <button class="header-button">
+      <nav>
+        <ul class="header-list">
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">About</a</li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
@@ -27,9 +34,8 @@
     <section class="background-img row">
         <div class="main">
           <h1 class="main-description">
-            <br />I'm Naol
-            <br />Glad to see
-            <br />you
+            I'm Naol
+            <br> Glad to see you
           </h1>
         </div>
         <p class="description">
@@ -83,7 +89,8 @@
     </section>
     <section class="project">
     <div class="card">
-      <img class="pic" src="img/Snapshoot Portfolio.png" alt="First-img" />
+      <img class="pic" src="img/desktop/Snapshoot Portfolio1.png" alt="First-img" />
+      <div class="Desktop-common">
       <h2 class="card-name">Tonic</h2>
       <ul class="can-bak">
         <li class="cann">canopy</li>
@@ -98,8 +105,10 @@
       </ul>
       <button class="sec-button">see project</button>
     </div>
+    </div>
     <div class="card">
-      <img class="pic" src="img/Second pic.png" alt="second-img" />
+      <img class="pic pic2" src="img/desktop/Snapshoot Portfolio2.png" alt="second-img" />
+      <div class="Desktop-common">
       <h2 class="card-name">Multi-post stories</h2>
       <ul class="can-bak">
         <li class="cann">canopy</li>
@@ -114,8 +123,10 @@
       </ul>
       <button class="sec-button">see project</button>
     </div>
-    <div class="card">
-      <img class="pic" src="img/Third-pic.png" alt="First-img" />
+    </div>
+    <div class="card" >
+      <img class="pic" src="img/desktop/Snapshoot Portfolio.png" alt="First-img" />
+      <div class="Desktop-common">
       <h2 class="card-name">Tonic</h2>
       <ul class="can-bak">
         <li class="cann">canopy</li>
@@ -130,8 +141,10 @@
       </ul>
       <button class="sec-button">see project</button>
     </div>
+    </div>
     <div class="card">
-      <img class="pic" src="img/Fourth-pic.png" alt="First-img" />
+      <img class="pic pic2" src="img/desktop/Snapshoot Portfolio4.png" alt="First-img" />
+      <div class="Desktop-common">
       <h2 class="card-name">Multi-post stories</h2>
       <ul class="can-bak">
         <li class="cann">canopy</li>
@@ -145,9 +158,11 @@
         <li class="work-name">javascript</li>
       </ul>
       <button class="sec-button">see project</button>
+    </div>
     </div>
   </section>
   <section class="about">
+    <div class="new-about">
     <h2 class="title-about">About<br>Myself</h2>
     <p class="description">I’m a software developer! I can help you build a product , feature or website Look through some of my work and
       experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
@@ -196,13 +211,15 @@
         </li>
        </ul>
        <div><button class="sec-button">Get my resume</button></div>
+      </div>
+       <div class="new-lang">
        <div class="accordion"><p>Language</p><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
         <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
       </svg></div>
       <ul class="prof">
         <li class="prof-list"><img src="img/js.png.png" alt="Javascr"/>Javascript</li>
         <li class="prof-list"><img src="img/html.png.png" alt="html"/>HTML</li>
-        <li class="prof-list"><img src="img/css.png.png" alt="css"/>CSS</li>
+        <li class="prof-list"><img src="img/css.png.png" alt="css"/>Css</li>
       </ul>
       <div class="accordion bot">
       <p>Frameworks</p><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
@@ -212,18 +229,20 @@
       <div class="accordion bot"><p>Skils</p><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
         <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
       </svg></div> 
-      <hr width="100%" color="#DFE1E6" size="2px">     
+      <hr width="100%" color="#DFE1E6" size="2px">
+    </div>     
   </section>
   <footer class="contact-form">
     <div class="first-container" >
          <h2 class="contact-head">Contact me </h2>
-        <p class="para-contact">If you have an application you <br> are interested in developing, a <br>  feature that you need built or a <br> project that needs coding. <br> I’d love to help with it </p>
+        <p class="para-contact">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
     </div>
+    <div class="last-form">
     <form class="contact-list" action="https://formspree.io/f/xdobrbok" method="post">
              <input type = "text" id="name"  name="user_name" maxlength = "30" placeholder="Enter Your name"  required>
             <input type="email" id="email" name="user_email" placeholder="Enter your email" required>
-            <textarea name="message" id="msg" cols="24" rows="6" maxlength = "500" placeholder="Write your message here" required></textarea>
-            <button type="submit" class="btn">Get It Touch</button>
+            <textarea name="message" id="msg" cols="24" rows="6" maxlength = "500" placeholder="Write your message here" required></textarea></div>
+            <button type="submit" class="last-btn">Get It Touch</button>
         <img class="contact-img"  src="img/Ellipse 3.png" alt="cont-img" >
         <img class="contact-img2"  src="img/Rectangle 4.png" alt="cont-img" >
         <img class="contact-img3"  src="img/Ellipse 12.png" alt="cont-img" >
