@@ -494,11 +494,11 @@ textarea {
     line-height: 20px;
     align-items: center;
     text-align: center;
-    color: #344563;
   }
 
   a {
     text-decoration: none;
+    color: #344563;
   }
 
   .main-description {
@@ -515,6 +515,7 @@ textarea {
     line-height: 5.2rem;
     width: 327px;
     height: 150px;
+    color: #091E42;
   }
 
   .background-img {
@@ -522,8 +523,9 @@ textarea {
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
-    margin-left:34px;
     background-color: #fff;
+    background-position-x: 16px;
+    border-bottom-left-radius: 12rem;
   }
 
   .description {
