@@ -481,7 +481,7 @@ textarea {
   }
 
   header {
-    padding:2.5rem 15rem;
+    padding: 2.5rem 15rem;
   }
 
   .header-list {
@@ -515,7 +515,7 @@ textarea {
     line-height: 5.2rem;
     width: 327px;
     height: 150px;
-    color: #091E42;
+    color: #091e42;
   }
 
   .background-img {
@@ -545,7 +545,7 @@ textarea {
     align-items: flex-start;
     justify-content: flex-start;
     gap: 3.2rem;
-    padding-top: 30px;
+    padding-top: 3rem;
   }
 
   .card {
@@ -557,12 +557,12 @@ textarea {
   .pic {
     width: 54.4rem;
     height: 44.8rem;
-    padding:12px;
+    padding: 1.2rem;
   }
 
   .pic2 {
     order: 1;
-    padding:12px;
+    padding: 1.2rem;
   }
 
   .tex-sec {
@@ -600,7 +600,7 @@ textarea {
   .prof-list {
     flex-direction: column;
     align-items: flex-start;
-    padding-right: 36px;
+    padding-right: 3.6rem;
     justify-content: flex-start;
   }
 
@@ -627,7 +627,7 @@ textarea {
     border-radius: 2px;
     display: block;
     padding: 1.6rem 39rem;
-    margin-bottom: 16px;
+    margin-bottom: 1.6rem;
   }
 
   .shape {
