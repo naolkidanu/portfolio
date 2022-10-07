@@ -481,7 +481,7 @@ textarea {
   }
 
   header {
-    padding: 2.6rem;
+    padding:2.5rem 15rem;
   }
 
   .header-list {
@@ -522,6 +522,8 @@ textarea {
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
+    margin-left:34px;
+    background-color: #fff;
   }
 
   .description {
@@ -541,6 +543,7 @@ textarea {
     align-items: flex-start;
     justify-content: flex-start;
     gap: 3.2rem;
+    padding-top: 30px;
   }
 
   .card {
@@ -552,10 +555,12 @@ textarea {
   .pic {
     width: 54.4rem;
     height: 44.8rem;
+    padding:12px;
   }
 
   .pic2 {
     order: 1;
+    padding:12px;
   }
 
   .tex-sec {
@@ -579,7 +584,7 @@ textarea {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
-    padding: 0 10rem;
+    padding-right: 10rem;
   }
 
   .accordion {
@@ -593,7 +598,7 @@ textarea {
   .prof-list {
     flex-direction: column;
     align-items: flex-start;
-    padding-right: 24px;
+    padding-right: 36px;
     justify-content: flex-start;
   }
 
