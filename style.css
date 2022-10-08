@@ -50,7 +50,6 @@ header {
   transition: all 0.5s;
 }
 
-
 .hamburger {
   display: flex;
   flex-direction: column;
@@ -338,8 +337,9 @@ header {
   margin-bottom: 5.7rem;
   transition: all 0.5s;
 }
-.para-contact:hover{
- transform: translateX(5px);
+
+.para-contact:hover {
+  transform: translateX(5px);
 }
 
 .contact-list {
@@ -575,10 +575,12 @@ textarea {
   .tex-sec {
     width: 49.6rem;
   }
- .pic:hover{
-   transform: scale(1.02);
-   transition: 0.25s;
- }
+
+  .pic:hover {
+    transform: scale(1.02);
+    transition: 0.25s;
+  }
+
   .project {
     margin-bottom: 14.2rem;
   }
