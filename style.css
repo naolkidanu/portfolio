@@ -46,7 +46,10 @@ header {
   font-size: 1.8rem;
   line-height: 2rem;
   color: #6070ff;
+  transform: rotate(360deg);
+  transition: all 0.5s;
 }
+
 
 .hamburger {
   display: flex;
@@ -333,6 +336,10 @@ header {
   color: #ebebff;
   text-align: center;
   margin-bottom: 5.7rem;
+  transition: all 0.5s;
+}
+.para-contact:hover{
+ transform: translateX(5px);
 }
 
 .contact-list {
@@ -568,7 +575,10 @@ textarea {
   .tex-sec {
     width: 49.6rem;
   }
-
+ .pic:hover{
+   transform: scale(1.02);
+   transition: 0.25s;
+ }
   .project {
     margin-bottom: 14.2rem;
   }
