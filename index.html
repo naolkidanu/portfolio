@@ -23,12 +23,14 @@
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
-      <button class="hamburger">
+      <button class="hamburger" id="openMenu">
         <span class="bar"></span>
         <span class="bar"></span>
         <span class="bar"></span>
       </button>
     </nav>
+   
+
    
     
 </header>
@@ -88,8 +90,28 @@
             </svg></a>
           </li>
         </ul>
+        <div id="MenuPop">
+          <div class="closeImg">
+                 <img src="./img/close.svg" alt="Close Image" class="close" id="closeBtn">
+          </div>
+          <ul>
+            <li>
+              <a href="#project_me" class="menuPop_link" >Portfolio</a>
+            </li>
+            <li>
+              <a href="#about_me"  class="menuPop_link">About</a>
+            </li>
+            <li>
+              <a href="#contact_me" class="menuPop_link">Contact</a>
+            </li>
+          </ul>
+      </div> 
     </section>
-    <section class="project">
+ 
+
+
+
+    <section class="project" id="project_me">
     <div class="card">
       <img class="pic" src="img/desktop/Snapshoot Portfolio1.png" alt="First-img" />
       <div class="Desktop-common">
@@ -163,7 +185,7 @@
     </div>
     </div>
   </section>
-  <section class="about">
+  <section class="about" id="about_me">
     <div class="new-about">
     <h2 class="title-about">About<br>Myself</h2>
     <p class="description">I’m a software developer! I can help you build a product , feature or website Look through some of my work and
@@ -234,7 +256,7 @@
       <hr width="100%" color="#DFE1E6" size="2px">
     </div>     
   </section>
-  <footer class="contact-form">
+  <footer class="contact-form" id="contact_me">
     <div class="first-container" >
          <h2 class="contact-head">Contact me </h2>
         <p class="para-contact">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
@@ -255,5 +277,6 @@
 </footer>
   </main>
 </body>
+<script src="script.js"></script>
 
 </html>
