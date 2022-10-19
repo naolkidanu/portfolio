@@ -19,6 +19,7 @@ body {
   background-repeat: no-repeat;
 }
 
+
 .row {
   display: flex;
   align-items: flex-start;
@@ -72,7 +73,48 @@ header {
   background-color: rgb(89, 89, 230);
   color: rgb(89, 89, 230);
 }
+/* overlay page */
+.close{
+  background: #67798E;
+  margin-top:62px;
+  margin-left:90%;
+  cursor: pointer;
 
+}
+#MenuPop{
+  display:none;
+  height: 824px;
+  width: 100%;
+
+  position: fixed;
+background-color:#6070ff;
+height: 824px;
+width: 100%;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+
+}
+#openMenu:hover{
+  cursor:pointer;
+
+}
+#MenuPop ul{
+  list-style-type: none;
+  padding-top:50px;
+  padding-left:28px;
+
+}
+#MenuPop ul li{
+  margin-bottom:15px;
+ }
+ #MenuPop ul li a{
+  font-size:28px;
+  font-weight: 700;
+  color:white;
+  text-decoration: none;
+ }
+ 
 .main {
   color: #555;
   font-size: 4rem;
