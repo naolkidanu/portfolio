@@ -14,8 +14,8 @@ hamburger.addEventListener('click', () => {
 });
 document.querySelectorAll(".header-list").forEach(n=>n.addEventListener('click',()=>{
 	hamburger.classList.remove('active');
-	navUl.classList.remove('active');
-	log.classList.remove('active');
+	// navUl.classList.remove('active');
+	// log.classList.remove('active');
 }))
 
 contact.addEventListener('submit', (event) => {
