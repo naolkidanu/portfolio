@@ -34,6 +34,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   background-color: #fff;
   border-radius: none;
@@ -52,6 +53,7 @@ header {
 
 .hamburger {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
   width: 3rem;
@@ -60,8 +62,34 @@ header {
   background: none;
 }
 
+.hamburger.active .bar:nth-child(2){
+  opacity: 0;
+}
+.hamburger.active .bar:nth-child(1){
+  transform: translate(6px) rotate(45deg);
+}
+.hamburger.active .bar:nth-child(3){
+  transform: translate(-6px) rotate(-45deg);
+}
+.header-list{
+  position:relative;
+  gap:0;
+  list-style: none;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+  text-align: center;
+  transition: 0.3s;
+}
+.navUl.active{
+  left:0;
+  display: flex;
+}
 .header-list {
   display: none;
+}
+.header-list.active{
+  display:flex;
 }
 
 .hamburger .bar {
@@ -71,6 +99,10 @@ header {
   border-radius: 1rem;
   background-color: rgb(89, 89, 230);
   color: rgb(89, 89, 230);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  width: 25px;
+  height: 3px;
 }
 
 .main {
@@ -562,8 +594,8 @@ textarea {
   }
 
   .pic {
-    width: 54.4rem;
-    height: 44.8rem;
+    width: 50rem;
+    height: 43rem;
     padding: 1.2rem;
   }
 
@@ -583,6 +615,8 @@ textarea {
 
   .project {
     margin-bottom: 14.2rem;
+    margin-left:5rem;
+    margin-right:5rem;
   }
 
   .about {
@@ -678,4 +712,13 @@ textarea {
     background-color: #fff;
     margin-bottom: 3rem;
   }
+  .mainnn{
+    width:100vw;
+    height:100vh;
+    position: fixed;
+    top:0%;
+    display: flex;
+    justify-content: center;
+  }
+  
 }
