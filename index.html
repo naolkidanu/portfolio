@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Naol's portfolio</title>
   <link href="style.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,9 +18,9 @@
     <nav>
       <nav>
         <ul class="header-list">
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">About</a</li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about-section">About</a</li>
+          <li><a href="#contact-section">Contact</a></li>
         </ul>
       </nav>
       <button class="hamburger">
@@ -87,7 +87,7 @@
           </li>
         </ul>
     </section>
-    <section class="project">
+    <section id="portfolio" class="project">
     <div class="card">
       <img class="pic" src="img/desktop/Snapshoot Portfolio1.png" alt="First-img" />
       <div class="Desktop-common">
@@ -125,7 +125,7 @@
     </div>
     </div>
     <div class="card" >
-      <img class="pic" src="img/desktop/Snapshoot Portfolio.png" alt="First-img" />
+      <img class="pic" src="img/desktop/Snapshoot Portfolio.png"5 alt="First-img" />
       <div class="Desktop-common">
       <h2 class="card-name">Tonic</h2>
       <ul class="can-bak">
@@ -148,8 +148,8 @@
       <h2 class="card-name">Multi-post stories</h2>
       <ul class="can-bak">
         <li class="cann">canopy</li>
-        <li class="bak">Back End Dev</li>
-        <li class="bak">2015</li>
+        <li class="">Back End Dev</li>
+        <li class="bakbak">2015</li>
       </ul>
       <p class="tex-sec">A daily selection of privately personalized read;no account or signs-up required</p>
       <ul class="work-list">
@@ -161,7 +161,7 @@
     </div>
     </div>
   </section>
-  <section class="about">
+  <section id="about-section" class="about">
     <div class="new-about">
     <h2 class="title-about">About<br>Myself</h2>
     <p class="description">I’m a software developer! I can help you build a product , feature or website Look through some of my work and
@@ -232,15 +232,16 @@
       <hr width="100%" color="#DFE1E6" size="2px">
     </div>     
   </section>
-  <footer class="contact-form">
+  <footer id="contact-section" class="contact-form">
     <div class="first-container" >
          <h2 class="contact-head">Contact me </h2>
         <p class="para-contact">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
     </div>
     <div class="last-form">
-    <form class="contact-list" action="https://formspree.io/f/xdobrbok" method="post">
+    <form class="contact-list" action="https://formspree.io/f/mgeqzbnr" method="post">
              <input type = "text" id="name"  name="user_name" maxlength = "30" placeholder="Enter Your name"  required>
             <input type="email" id="email" name="user_email" placeholder="Enter your email" required>
+            <p class="error"></p>
             <textarea name="message" id="msg" cols="24" rows="6" maxlength = "500" placeholder="Write your message here" required></textarea></div>
             <button type="submit" class="last-btn">Get It Touch</button>
         <img class="contact-img"  src="img/Ellipse 3.png" alt="cont-img" >
@@ -252,6 +253,7 @@
     </form>
 </footer>
   </main>
+  <script src="script.js"></script>
 </body>
 
 </html>

@@ -1,6 +1,6 @@
 # Portfolio
 
->This is my first portfolio page.
+> This is my first portfolio page.
 
 ## Author
 
@@ -9,6 +9,7 @@
 - GitHub: [@naolkidanu](https://github.com/naolkidanu)
 - Twitter: [@kidanuNaol](https://twitter.com/KidanuNaol)
 - LinkedIn: [Naol (Eric) Kidanu](https://www.linkedin.com/in/naol-kidanu-3b64b7227/)
+- Link:[@naolkidanu](https://naolkidanu.github.io/portfolio/)
 
 ## 🤝 Contributing
 
