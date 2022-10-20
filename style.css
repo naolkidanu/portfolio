@@ -511,7 +511,11 @@ textarea {
   flex-direction: column;
   gap: 12px;
 }
-
+.error{
+  font-size: 18px;
+  font-weight: 600;
+  color: rgba(255, 94, 0, 0.514);
+}
 @media (max-width: 768px) {
   .log.active {
     visibility: hidden;
