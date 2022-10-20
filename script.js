@@ -1,7 +1,7 @@
 /** @format */
 
-const submit = document.querySelector('.submit');
 const contact = document.querySelector('.contact-list');
+const submit = document.querySelector('.submit');
 const hamburger = document.querySelector('.hamburger');
 const navUl = document.querySelector('.header-list');
 const project = document.querySelector('.project');
