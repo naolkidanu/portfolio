@@ -1,4 +1,3 @@
-/** @format */
 const contact = document.querySelector('.contact-list');
 const hamburger = document.querySelector('.hamburger');
 const navUl = document.querySelector('.header-list');
