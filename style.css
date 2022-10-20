@@ -47,12 +47,11 @@ header {
   display: flex;
   flex-direction: row;
   gap: 3.2rem;
-   align-items: center;
+  align-items: center;
   text-align: center;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
- 
 }
 
 .log {
@@ -512,11 +511,13 @@ textarea {
   flex-direction: column;
   gap: 12px;
 }
-.error{
+
+.error {
   font-size: 18px;
   font-weight: 600;
   color: rgba(255, 94, 0, 0.603);
 }
+
 @media (max-width: 768px) {
   .log.active {
     visibility: hidden;
