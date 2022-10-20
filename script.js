@@ -1,5 +1,4 @@
 const contact = document.querySelector('.contact-list');
-const submit = document.querySelector('.submit');
 const hamburger = document.querySelector('.hamburger');
 const navUl = document.querySelector('.header-list');
 const log = document.querySelector('.log');
