@@ -1,7 +1,10 @@
 /** @format */
+
+const submit = document.querySelector('.submit');
 const contact = document.querySelector('.contact-list');
 const hamburger = document.querySelector('.hamburger');
 const navUl = document.querySelector('.header-list');
+const project = document.querySelector('.project');
 const log = document.querySelector('.log');
 
 hamburger.addEventListener('click', () => {
