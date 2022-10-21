@@ -34,63 +34,59 @@ const wrapper = document.querySelector('.wrapper');
 const overFlow = document.querySelector('*');
 
 hamburger.addEventListener('click', () => {
-	hamburger.classList.toggle('active');
-	navUl.classList.toggle('active');
-	log.classList.toggle('active');
+  hamburger.classList.toggle('active');
+  navUl.classList.toggle('active');
+  log.classList.toggle('active');
 });
 
 const mainData = [
-	{
-		name: 'Tonic',
-		description:
-			'lorem ipsum reakkhfhrhfhryrhfyrfhkjdjyrh erfhryf bnbfryf fhrhyfbhbfy',
-		imageUrl: 'img/desktop/SnapshootPortfolio.png',
-		technologies: ['html', 'css', 'javscript', 'github', 'ruby', 'Bootstraps'],
-		company: 'CANOPY',
-		role: 'Back end dev',
-		year: '2015',
-		linkLive: 'https://naolkidanu.github.io/portfolio/',
-		linkSource: 'https://github.com/naolkidanu/portfolio',
-	},
-	{
-		name: 'Multi-post stories',
-		description:
-			'lorem ipsum reakkhfhrhfhryrhfyrfhkjdjyrh erfhryfbnbfryf fhrhyfbhbfy',
-		imageUrl: 'img/desktop/SnapshootPortfolio2.png',
-		technologies: ['html', 'css', 'javscript', 'github', 'ruby', 'Bootstraps'],
-		company: 'FACEBOOK',
-		role: 'Full stack dev',
-		year: '2015',
-		linkLive: 'https://naolkidanu.github.io/portfolio/',
-		linkSource: 'https://github.com/naolkidanu/portfolio',
-	},
-	{
-		name: 'Facebook 360',
-		description:
-			'lorem ipsum reakkhfhrhfhryrhfyrfhkjdjyrh erfhryfbnbfryf fhrhyfbhbfy',
-		imageUrl: 'img/desktop/SnapshootPortfolio4.png',
-		technologies: ['html', 'css', 'javscript', 'github', 'ruby', 'Bootstraps'],
-		company: 'FACEBOOK',
-		role: 'Full stack dev',
-		year: '2015',
-		linkLive: 'https://naolkidanu.github.io/portfolio/',
-		linkSource: 'https://github.com/naolkidanu/portfolio',
-	},
-	{
-		name: 'Uber Navigation',
-		description:
-			'lorem ipsum reakkhfhrhfhryrhfyrfhkjdjyrh erfhryfbnbfryf fhrhyfbhbfy',
-		imageUrl: 'img/desktop/SnapshootPortfolio4.png',
-		technologies: ['html', 'css', 'javscript', 'github', 'ruby', 'Bootstraps'],
-		company: 'Uber',
-		role: 'Lead developer',
-		year: '2018',
-		linkLive: 'https://naolkidanu.github.io/portfolio/',
-		linkSource: 'https://github.com/naolkidanu/portfolio',
-	},
+  {
+    name: 'Tonic',
+    description: 'lorem ipsum reakkhfhrhfhryrhfyrfhkjdjyrh erfhryf bnbfryf fhrhyfbhbfy',
+    imageUrl: 'img/desktop/SnapshootPortfolio.png',
+    technologies: ['html', 'css', 'javscript', 'github', 'ruby', 'Bootstraps'],
+    company: 'CANOPY',
+    role: 'Back end dev',
+    year: '2015',
+    linkLive: 'https://naolkidanu.github.io/portfolio/',
+    linkSource: 'https://github.com/naolkidanu/portfolio',
+  },
+  {
+    name: 'Multi-post stories',
+    description: 'lorem ipsum reakkhfhrhfhryrhfyrfhkjdjyrh erfhryfbnbfryf fhrhyfbhbfy',
+    imageUrl: 'img/desktop/SnapshootPortfolio2.png',
+    technologies: ['html', 'css', 'javscript', 'github', 'ruby', 'Bootstraps'],
+    company: 'FACEBOOK',
+    role: 'Full stack dev',
+    year: '2015',
+    linkLive: 'https://naolkidanu.github.io/portfolio/',
+    linkSource: 'https://github.com/naolkidanu/portfolio',
+  },
+  {
+    name: 'Facebook 360',
+    description: 'lorem ipsum reakkhfhrhfhryrhfyrfhkjdjyrh erfhryfbnbfryf fhrhyfbhbfy',
+    imageUrl: 'img/desktop/SnapshootPortfolio4.png',
+    technologies: ['html', 'css', 'javscript', 'github', 'ruby', 'Bootstraps'],
+    company: 'FACEBOOK',
+    role: 'Full stack dev',
+    year: '2015',
+    linkLive: 'https://naolkidanu.github.io/portfolio/',
+    linkSource: 'https://github.com/naolkidanu/portfolio',
+  },
+  {
+    name: 'Uber Navigation',
+    description: 'lorem ipsum reakkhfhrhfhryrhfyrfhkjdjyrh erfhryfbnbfryf fhrhyfbhbfy',
+    imageUrl: 'img/desktop/SnapshootPortfolio4.png',
+    technologies: ['html', 'css', 'javscript', 'github', 'ruby', 'Bootstraps'],
+    company: 'Uber',
+    role: 'Lead developer',
+    year: '2018',
+    linkLive: 'https://naolkidanu.github.io/portfolio/',
+    linkSource: 'https://github.com/naolkidanu/portfolio',
+  },
 ];
-for (let i = 0; i < mainData.length; i++) {
-	const card = `<div class="card">
+for (let i = 0; i < mainData.length; i += 1) {
+  const card = `<div class="card">
       <img class="pic" src="${mainData[i].imageUrl}" alt="First-img" />
       <div class="Desktop-common">
       <h2 class="card-name">${mainData[i].name}</h2>
@@ -108,31 +104,26 @@ for (let i = 0; i < mainData.length; i++) {
       <button class="sec-button">see project</button>
     </div>
     </div>`;
-	project.insertAdjacentHTML('beforeend', card);
+  project.insertAdjacentHTML('beforeend', card);
 }
 
-const modal_button = document.querySelectorAll('.sec-button');
-for (let i = 0; i < modal_button.length; i++) {
-	modal_button[i].addEventListener('click', () => {
-		modalEl.classList.toggle('hidden');
-		wrapper.classList.toggle('blur');
-		overFlow.classList.toggle('scroll-off');
+const modalButton = document.querySelectorAll('.sec-button');
+for (let i = 0; i < modalButton.length; i += 1) {
+  modalButton[i].addEventListener('click', () => {
+    modalEl.classList.toggle('hidden');
+    wrapper.classList.toggle('blur');
+    overFlow.classList.toggle('scroll-off');
 
-		let loopInner;
-		mainData[i].technologies.forEach((tech, index) => {
-			loopInner += `<li class="work-name">${tech}</li>`;
-		});
+    let loopInner;
+    mainData[i].technologies.forEach((tech) => {
+      loopInner += `<li class="work-name">${tech}</li>`;
+      return loopInner;
+    });
 
-		modalEl.innerHTML = `<div class="card1">
+    modalEl.innerHTML = `<div class="card1">
       <div class="Desktop-common1">
-        <div class="head-just1">
-					<h2 class="card-name1">${mainData[i].name}</h2>
-					<img src="img/Icon-Cancel.svg" alt="Cancel" class="cancel icon-img"/>
-				</div>
-				<ul class="can-bak1">
-          <li class="cann1">${mainData[i].company}</li>
-					<li class="bak1">${mainData[i].role}</li>
-					<li class="bak1">${mainData[i].year} </li>
+        <div class="head-just1"><h2 class="card-name1">${mainData[i].name}</h2><img src="img/Icon-Cancel.svg" alt="Cancel" class="cancel icon-img"/></div><ul class="can-bak1">
+          <li class="cann1">${mainData[i].company}</li><li class="bak1">${mainData[i].role}</li><li class="bak1">${mainData[i].year} </li>
         </ul>
         <img
           class="pic1"
@@ -161,11 +152,11 @@ for (let i = 0; i < modal_button.length; i++) {
       </div>
     </div>`;
 
-		const cancel = document.querySelector('.cancel');
-		cancel.addEventListener('click', () => {
-			modalEl.classList.toggle('hidden');
-			wrapper.classList.toggle('blur');
-			overFlow.classList.toggle('scroll-off');
-		});
-	});
+    const cancel = document.querySelector('.cancel');
+    cancel.addEventListener('click', () => {
+      modalEl.classList.toggle('hidden');
+      wrapper.classList.toggle('blur');
+      overFlow.classList.toggle('scroll-off');
+    });
+  });
 }
