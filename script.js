@@ -1,4 +1,3 @@
-/** @format */
 
 const contact = document.querySelector('.contact-list');
 const hamburger = document.querySelector('.hamburger');
@@ -15,6 +14,7 @@ hamburger.addEventListener('click', () => {
   navUl.classList.toggle('active');
   log.classList.toggle('active');
 });
+
 
 const mainData = [
   {
@@ -135,6 +135,12 @@ for (let i = 0; i < modalButton.length; i += 1) {
     });
   });
 }
+
+document.querySelectorAll('.header-list').forEach((n) => n.addEventListener('click', () => {
+  hamburger.classList.remove('active');
+  navUl.classList.remove('active');
+  log.classList.remove('active');
+}));
 
 contact.addEventListener('submit', (event) => {
   const email = document.getElementById('email').value;
