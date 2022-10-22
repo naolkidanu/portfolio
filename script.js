@@ -133,6 +133,12 @@ for (let i = 0; i < modalButton.length; i += 1) {
   });
 }
 
+document.querySelectorAll('.header-list').forEach((n) => n.addEventListener('click', () => {
+  hamburger.classList.remove('active');
+  navUl.classList.remove('active');
+  log.classList.remove('active');
+}));
+
 contact.addEventListener('submit', (event) => {
   const email = document.getElementById('email').value;
   const error = document.querySelector('.error');
