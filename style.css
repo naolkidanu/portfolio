@@ -267,8 +267,8 @@ header {
 .first-desk {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   justify-content: flex-start;
+  align-items: flex-start;
   gap: 1.2rem;
 }
 
@@ -559,7 +559,7 @@ textarea {
   .header-list.active li a {
     font-size: 2.5rem;
     line-height: 3rem;
-    color: #fff;
+    color: #6070ff;
     text-decoration: none;
   }
 }
@@ -759,4 +759,202 @@ textarea {
     display: flex;
     justify-content: center;
   }
+
+  .card1 {
+    display: grid;
+    gap: 4.6rem;
+    padding: 4rem 3rem;
+    background-color: #fff;
+    width: 75vw;
+    margin: 0 auto;
+  }
+
+  .Desktop-common1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.2rem;
+    padding-top: 1.2rem;
+    padding-right: 12px;
+  }
+
+  .head-just1 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .icon-img1 {
+    position: absolute;
+    right: 8rem;
+  }
+
+  #pic-modal {
+    width: 67rem;
+    height: 30rem;
+  }
+
+  .One1 {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  .tex-sec1 {
+    width: 49.6rem;
+  }
+
+  .work-list1 {
+    display: flex;
+  }
+}
+
+.vector1 {
+  width: 24px;
+  height: 24px;
+}
+
+.live1 {
+  display: flex;
+  gap: 12px;
+}
+
+.sec-button1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.7rem;
+  line-height: 2.4rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  padding: 8px;
+  border-radius: 1rem;
+  border: solid 0.2rem #396df2;
+  background-color: #fff;
+  margin-bottom: 3rem;
+}
+
+.sec-button1:hover {
+  background-color: #396df2;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.sec-button1:active {
+  background-color: #7f8cff;
+  color: #fff;
+}
+
+.work-name1 {
+  background-color: #ebebff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.4rem 1.2rem;
+  border-radius: 0.8rem;
+}
+
+.work-list1 {
+  color: #6070ff;
+  letter-spacing: 0.03em;
+  display: flex;
+  flex-direction: row;
+  gap: 0.8rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1rem;
+  list-style: none;
+  margin-bottom: 16px;
+}
+
+.tex-sec1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  color: #344563;
+  margin-bottom: 12px;
+}
+
+.card1 {
+  background-color: #fff;
+  margin: 2rem;
+  padding: 12px 3px;
+}
+
+.head-just1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card-name1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 4.4rem;
+  color: #172b4d;
+}
+
+.icon-img1 {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 32px;
+}
+
+.can-bak1 {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  margin: 12px 0;
+}
+
+.cann1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  color: #344563;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.bak1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 1rem;
+  color: #7a869a;
+}
+
+.pic1 {
+  width: 29.5rem;
+  height: 22rem;
+  border-radius: 0.8rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.blur {
+  width: 90vw;
+  height: 95vh;
+  background-color: #091e42;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  user-select: none;
+  margin: 0 auto;
+}
+
+.scroll-off {
+  overflow: hidden;
 }
