@@ -21,7 +21,7 @@ const mainData = [
 	{
 		name: 'Tonic',
 		description:
-			'lorem ipsum reakkhfhrhfhryrhfyrfhkjdjyrh erfhryf bnbfryf fhrhyfbhbfy',
+			'lorem ipsum reakkhfhrhfhryrhfyrfhkjdjyrh erfhryf bhhhhhnbfryf fhrhyfbhbfy',
 		imageUrl: 'img/desktop/SnapshootPortfolio1.png',
 		technologies: ['html', 'css', 'javscript'],
 		company: 'CANOPY',
@@ -129,7 +129,7 @@ for (let i = 0; i < modal_button.length; i++) {
                 <img src="./img/Vector-git.png" class="vector1" />
               </a>
               <a href=${mainData[i].linkSource} class="sec-button1">
-                see source<img src="img" class="vector1" />
+                see source<img src="img/Icon-s.png" class="vector1" />
               </a>
             </ul>
           </div>
