@@ -28,9 +28,9 @@ body {
   row-gap: 2rem;
   flex-direction: column;
   background-color: #fff;
-  border-radius: 0.05px;
   padding: 1.6rem 1.6rem;
   margin-bottom: 8.8rem;
+  border-radius: 0.05px;
 }
 
 header {
@@ -39,7 +39,7 @@ header {
   flex-wrap: wrap;
   align-items: center;
   background-color: #fff;
-  padding: 1rem 1rem;
+  padding: 1rem;
 }
 
 .header-list {
@@ -47,11 +47,11 @@ header {
   display: flex;
   flex-direction: row;
   gap: 3.2rem;
-  align-items: center;
-  text-align: center;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
+  align-items: center;
+  text-align: center;
 }
 
 .log {
@@ -65,8 +65,7 @@ header {
 }
 
 .bar {
-  width: 24px;
-  height: 28px;
+  width: 16px;
   border: 1px solid #6070ff;
   transition: 0.6s ease;
 }
@@ -512,12 +511,6 @@ textarea {
   gap: 12px;
 }
 
-.error {
-  font-size: 18px;
-  font-weight: 600;
-  color: rgba(255, 94, 0, 0.603);
-}
-
 @media (max-width: 768px) {
   .log.active {
     visibility: hidden;
@@ -538,8 +531,7 @@ textarea {
   .header-list.active {
     left: 0;
     margin-top: 20px;
-    background: #6070ff;
-    opacity: 0.88;
+    background: white;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
     height: 100%;
     padding: 3rem 1rem;
@@ -562,179 +554,18 @@ textarea {
     color: #6070ff;
     text-decoration: none;
   }
-}
 
-@media (min-width: 768px) {
-  .hamburger {
-    display: none;
+  .vector1 {
+    width: 24px;
+    height: 24px;
   }
 
-  header {
-    padding: 2.5rem 15rem;
-  }
-
-  a {
-    text-decoration: none;
-    color: #344563;
-  }
-
-  .main-description {
+  .live1 {
     display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1rem;
-    font-style: normal;
-    font-size: 4rem;
-    font-weight: 700;
-    padding-top: 9.6rem;
-    letter-spacing: 0.37px;
-    line-height: 5.2rem;
-    width: 327px;
-    height: 150px;
-    color: #091e42;
+    gap: 12px;
   }
 
-  .background-img {
-    background-image: url(img/desktop/Header\ bg@2x.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    background-color: #fff;
-    background-position-x: 16px;
-    border-bottom-left-radius: 12rem;
-  }
-
-  .description {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 2rem;
-    line-height: 2.8rem;
-  }
-
-  .row {
-    padding: 16rem 25rem;
-  }
-
-  .Desktop-common {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 3.2rem;
-    padding-top: 3rem;
-  }
-
-  .card {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 4.6rem;
-  }
-
-  .pic {
-    width: 50rem;
-    height: 43rem;
-    padding: 1.2rem;
-  }
-
-  .pic2 {
-    order: 1;
-    padding: 1.2rem;
-  }
-
-  .tex-sec {
-    width: 49.6rem;
-  }
-
-  .pic:hover {
-    transform: scale(1.02);
-    transition: 0.25s;
-  }
-
-  .project {
-    margin-bottom: 14.2rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-  }
-
-  .about {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3.7rem;
-    border-top-right-radius: 12rem;
-  }
-
-  .about .description {
-    color: #344563;
-  }
-
-  .new-about {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-    padding: 0 9.5rem;
-  }
-
-  .new-lang {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-    padding-right: 10rem;
-  }
-
-  .accordion {
-    padding-right: 0;
-  }
-
-  .prof {
-    flex-direction: row;
-  }
-
-  .prof-list {
-    flex-direction: column;
-    align-items: flex-start;
-    padding-right: 3.6rem;
-    justify-content: flex-start;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    display: flex;
-    color: #253858;
-    width: 10.8rem;
-  }
-
-  .contact-form {
-    background-image: url(img/desktop/group_56.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-  }
-
-  .contact-img,
-  .contact-img2,
-  .contact-img3,
-  .contact-img4,
-  .contact-img5 {
-    display: none;
-  }
-
-  .para-contact {
-    padding: 0 40.5rem;
-  }
-
-  .last-form {
-    border-radius: 2px;
-    display: block;
-    padding: 1.6rem 39rem;
-    margin-bottom: 1.6rem;
-  }
-
-  .shape {
-    display: none;
-  }
-
-  .last-btn {
-    margin: 0 auto;
+  .sec-button1 {
     font-style: normal;
     font-weight: 500;
     font-size: 1.7rem;
@@ -744,20 +575,366 @@ textarea {
     text-align: center;
     letter-spacing: 0.03em;
     color: #396df2;
-    padding: 1rem 1rem;
+    padding: 8px;
     border-radius: 1rem;
     border: solid 0.2rem #396df2;
     background-color: #fff;
     margin-bottom: 3rem;
   }
 
-  .mainnn {
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    top: 0%;
+  .sec-button1:hover {
+    background-color: #396df2;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.8s;
+  }
+
+  .sec-button1:active {
+    background-color: #7f8cff;
+    color: #fff;
+  }
+
+  .work-name1 {
+    background-color: #ebebff;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.4rem 1.2rem;
+    border-radius: 0.8rem;
+  }
+
+  .work-list1 {
+    color: #6070ff;
+    letter-spacing: 0.03em;
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1rem;
+    list-style: none;
+    margin-bottom: 16px;
+  }
+
+  .tex-sec1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    color: #344563;
+    margin-bottom: 12px;
+  }
+
+  .head-just1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .card-name1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 4.4rem;
+    color: #172b4d;
+  }
+
+  .icon-img1 {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 32px;
+  }
+
+  .can-bak1 {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+  }
+
+  .cann1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    color: #344563;
+    text-transform: uppercase;
+    list-style: none;
+  }
+
+  .bak1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 1rem;
+    color: #7a869a;
+  }
+
+  .pic1 {
+    width: 29.5rem;
+    height: 22rem;
+    border-radius: 0.8rem;
+  }
+
+  @media (min-width: 768px) {
+    .hamburger {
+      display: none;
+    }
+
+    header {
+      padding: 2.5rem 15rem;
+    }
+
+    a {
+      text-decoration: none;
+      color: #344563;
+    }
+
+    .main-description {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      gap: 1rem;
+      font-style: normal;
+      font-size: 4rem;
+      font-weight: 700;
+      padding-top: 9.6rem;
+      letter-spacing: 0.37px;
+      line-height: 5.2rem;
+      width: 327px;
+      height: 150px;
+      color: #091e42;
+    }
+
+    .background-img {
+      background-image: url(img/desktop/Header\ bg@2x.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 100%;
+      background-color: #fff;
+      background-position-x: 16px;
+      border-bottom-left-radius: 12rem;
+    }
+
+    .description {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 2rem;
+      line-height: 2.8rem;
+    }
+
+    .row {
+      padding: 16rem 25rem;
+    }
+
+    .Desktop-common {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 3.2rem;
+      padding-top: 3rem;
+    }
+
+    .card {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4.6rem;
+    }
+
+    .pic {
+      width: 50rem;
+      height: 43rem;
+      padding: 1.2rem;
+    }
+
+    .pic2 {
+      order: 1;
+      padding: 1.2rem;
+    }
+
+    .tex-sec {
+      width: 49.6rem;
+    }
+
+    .pic:hover {
+      transform: scale(1.02);
+      transition: 0.25s;
+    }
+
+    .project {
+      margin-bottom: 14.2rem;
+      margin-left: 5rem;
+      margin-right: 5rem;
+    }
+
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3.7rem;
+      border-top-right-radius: 12rem;
+    }
+
+    .about .description {
+      color: #344563;
+    }
+
+    .new-about {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      padding: 0 9.5rem;
+    }
+
+    .new-lang {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      padding-right: 10rem;
+    }
+
+    .accordion {
+      padding-right: 0;
+    }
+
+    .prof {
+      flex-direction: row;
+    }
+
+    .prof-list {
+      flex-direction: column;
+      align-items: flex-start;
+      padding-right: 3.6rem;
+      justify-content: flex-start;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 20px;
+      display: flex;
+      color: #253858;
+      width: 10.8rem;
+    }
+
+    .contact-form {
+      background-image: url(img/desktop/group_56.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 100%;
+    }
+
+    .contact-img,
+    .contact-img2,
+    .contact-img3,
+    .contact-img4,
+    .contact-img5 {
+      display: none;
+    }
+
+    .para-contact {
+      padding: 0 40.5rem;
+    }
+
+    .last-form {
+      border-radius: 2px;
+      display: block;
+      padding: 1.6rem 39rem;
+      margin-bottom: 1.6rem;
+    }
+
+    .shape {
+      display: none;
+    }
+
+    .last-btn {
+      margin: 0 auto;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.7rem;
+      line-height: 2.4rem;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.03em;
+      color: #396df2;
+      padding: 1rem 1rem;
+      border-radius: 1rem;
+      border: solid 0.2rem #396df2;
+      background-color: #fff;
+      margin-bottom: 3rem;
+    }
+
+    .mainnn {
+      width: 100vw;
+      height: 100vh;
+      position: fixed;
+      top: 0%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .card1 {
+      display: grid;
+      gap: 4.6rem;
+      padding: 4rem 3rem;
+    }
+
+    .Desktop-common1 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 1.2rem;
+      padding-top: 1.2rem;
+      padding-right: 12px;
+    }
+
+    .head-just1 {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .icon-img1 {
+      position: absolute;
+      right: 8rem;
+    }
+
+    .pic1 {
+      width: 90%;
+      height: 50rem;
+      padding: 1.2rem;
+    }
+
+    .One1 {
+      display: flex;
+      flex-direction: row;
+      gap: 32px;
+    }
+
+    .tex-sec1 {
+      width: 49.6rem;
+    }
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .blur {
+    width: 90vw;
+    height: 90vh;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    user-select: none;
+    padding: 12px 24px;
+    background-color: #f7f7f9;
+  }
+
+  .scroll-off {
+    overflow: hidden;
   }
 
   .card1 {
